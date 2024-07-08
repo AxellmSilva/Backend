@@ -4,7 +4,7 @@
 // não esqueçer do constructor
 // depois de criar a classe, instanciar dois objetos coruja e chamar os métodos
 
-class Coruja{
+class Gato{
     nome:string
     peso:number
     cor:string
@@ -29,8 +29,8 @@ class Coruja{
     }
 }
 
-const myOwl: Coruja = new Coruja('Noturno', 4, 'Branca')
-const mySecondOwl: Coruja = new Coruja('Diurno', 3.3, 'Marrom')
+const myCat: Gato = new Gato('Noturno', 4, 'Branca')
+const mySecondCat: Gato = new Gato('Diurno', 3.3, 'Marrom')
 
-myOwl.chirriar()
+myOwl.comer()
 myOwl.voar()

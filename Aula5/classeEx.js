@@ -1,5 +1,5 @@
 // criar classe coruja
-// 3 atrivutos
+// 3 atributos
 // 3 métodos
 // não esqueçer do constructor
 // depois de criar a classe, instanciar dois objetos coruja e chamar os métodos

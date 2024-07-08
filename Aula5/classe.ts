@@ -20,7 +20,7 @@ class Cachorro {
     }
 
     correr():void{
-        console.log('o cachorro está correndo.')
+        console.log(`o cachorro ${this.nome} está correndo.`)
         //console.log(`{this.nome} está correndo`) // Nala está correndo
     }
 
