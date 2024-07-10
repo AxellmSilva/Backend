@@ -28,8 +28,8 @@ export class Carro {
         return this.velocidade
 
     }
-    setVelocidade (novaVelocidade:number):void{
-        if(this.velocidade > 0){
+    setVelocidade (novaVelocidade:number):number | void{
+        if(novaVelocidade > 0){
             this.velocidade = novaVelocidade
         }else{
             console.log("A velocidade não pode ser 0 ou negativa")
@@ -57,10 +57,10 @@ export class Carro {
         return this.potencia
     }
     setPotencia(novaPotencia:number):number | void{
-        if (this.potencia > 0){
+        if (novaPotencia > 0){
             this.potencia = novaPotencia
         }else{
-            console.log("A potência não pode set 0 ou negativa")
+            console.log("A potência não pode ser 0 ou negativa")
         }
     }
 }

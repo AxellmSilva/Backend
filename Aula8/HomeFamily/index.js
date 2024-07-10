@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var House_1 = require("./House");
+var Apartament_1 = require("./Apartament");
+var minhaCasa = new House_1.House(2, 2, 2);
+var meuApartamento = new Apartament_1.Apartament(1, 1, 4, 1);
+minhaCasa.protegeDaChuva();
+minhaCasa.andares();
+meuApartamento.lift();
+meuApartamento.protegeDaChuva();
+minhaCasa.andares();

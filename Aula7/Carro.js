@@ -21,7 +21,7 @@ var Carro = /** @class */ (function () {
         return this.velocidade;
     };
     Carro.prototype.setVelocidade = function (novaVelocidade) {
-        if (this.velocidade > 0) {
+        if (novaVelocidade > 0) {
             this.velocidade = novaVelocidade;
         }
         else {
@@ -44,7 +44,7 @@ var Carro = /** @class */ (function () {
         return this.potencia;
     };
     Carro.prototype.setPotencia = function (novaPotencia) {
-        if (this.potencia > 0) {
+        if (novaPotencia > 0) {
             this.potencia = novaPotencia;
         }
         else {

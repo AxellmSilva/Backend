@@ -15,9 +15,9 @@ minhaMoto.estilo()
 meuCarro.setCor("amarelo")
 console.log(meuCarro.getCor())
 
-meuCarro.setVelocidade(150)
+meuCarro.setVelocidade(-100)
 console.log(meuCarro.getVelocidade())
 
 
-minhaMoto.setVelocidade(130)
+minhaMoto.setVelocidade(-130)
 console.log(minhaMoto.getVelocidade())

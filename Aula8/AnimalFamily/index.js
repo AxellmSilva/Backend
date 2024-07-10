@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Dog_1 = require("../Dog");
+var Owl_1 = require("../Owl");
+var meuCachoro = new Dog_1.Dog('Nala', 15, "dalmata");
+var minhaCoruja = new Owl_1.Owl('bird', 3.3, "white");
+console.log(meuCachoro.name);
+console.log(meuCachoro.weight);
+meuCachoro.eat(10);
+meuCachoro.bark();
+console.log(minhaCoruja.name);
+console.log(minhaCoruja.weight);
+minhaCoruja.eat(6);
+minhaCoruja.feather();
