@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Sabao_1 = require("./Sabao");
+var Alface_1 = require("./Alface");
+var Leite_1 = require("./Leite");
+var meuSabao = new Sabao_1.Sabao("Higiêne", 4.59, "Tyxian", 400);
+var meuAlface = new Alface_1.Alface("legume", 3.99, "hortifruit", 200);
+var meuLeite = new Leite_1.Leite("Bebida", 4.99, "Láctea", 2);
+meuSabao.compra();
+meuAlface.compra();
+meuLeite.compra();
+meuAlface.lavar();
+meuSabao.limpeza();
+meuLeite.embalagem();

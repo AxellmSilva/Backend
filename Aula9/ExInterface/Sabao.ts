@@ -13,6 +13,10 @@ export class Sabao implements Produtos{
     }
 
     compra(): void {
-        console.log(``);
+        console.log(`O produto ${this.nome} está sendo comprado.`);
+    }
+
+    limpeza(): void{
+        console.log(`O sabão ${this.nome} faz 25 lavagens`)
     }
 }
