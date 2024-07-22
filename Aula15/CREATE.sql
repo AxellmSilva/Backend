@@ -8,3 +8,12 @@ CREATE TABLE clientes(
     nome VARCHAR(100),
     telefone VARCHAR(100)
 );
+
+CREATE TABLE Pedidos(
+    idPedido INT AUTO_INCREMENT PRIMARY KEY,
+    idCliente INT,
+    numeroPedido VARCHAR(50),
+    valorTotal DECIMAL(10, 2),--diz o tamanho e quantas casas depois da vírgula
+    dataPedido DATE,
+    FOREIGN KEY (idClientes) REFERENCES clientes(idClientes)
+);
