@@ -110,8 +110,20 @@ VALUES(1, 1,"2024-07-19", "2024-07-22", "2024-07-29","Disponível"),
         (2, 3, "2024-07-20", "2024-07-23", "2024-07-30", "Diponível"),
         (3, 2, "2024-06-18", "2024-06-22", "2024-06-29", "Disponível");
 
-UPDATE Clientes
+UPDATE Livros
 set Editora = "Lagoa",
-    NumeroPaginas= "230"
+    NumeroPaginas= "230",
     Idioma="Português"
-WHERE ClienteID = 1;
+WHERE LivroID = 1;
+
+UPDATE Livros
+set Editora = "Mar Azul",
+    NumeroPaginas= "120",
+    Idioma="Português"
+WHERE LivroID = 2;
+
+UPDATE Livros
+set Editora = "Rio Doce",
+    NumeroPaginas= "90",
+    Idioma="Português"
+WHERE LivroID = 3;
